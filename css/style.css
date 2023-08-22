@@ -179,3 +179,14 @@ nav ul li a {
   top: 0;
   border-radius: 10px;
 }
+
+.menu-btn-small {
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 30px;
+  color: #231e41;
+  margin-right: 20px;
+}
