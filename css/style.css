@@ -29,6 +29,8 @@ nav ul {
 nav ul li {
   list-style: none;
   padding: 0 20px;
+  display: flex;
+  align-items: center;
 }
 
 nav ul li a {
@@ -188,19 +190,4 @@ nav ul li a {
   outline: none;
   font-size: 30px;
   color: #231e41;
-  margin-right: 20px;
-}
-
-@media (min-width: 576px) and (max-width: 991.98px) {
-  nav {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  }
-
-  .nav-right {
-    display: none !important;
-  }
-
-  .menu-btn-small {
-    display: block;
-  }
 }
